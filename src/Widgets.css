@@ -1,0 +1,33 @@
+.widgets{
+    flex: 0.2;
+    position: sticky;
+    top: 80px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+    margin-right: 10px;
+}
+
+.widgets__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.widgets__header > h2{
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+}
+
+.news__right{
+    cursor: pointer;
+}
+
+.news__right:hover{
+    background-color: whitesmoke;
+}
+

@@ -1,0 +1,11 @@
+.inputOptions{
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.inputOptions:hover{
+    color: black;
+}
